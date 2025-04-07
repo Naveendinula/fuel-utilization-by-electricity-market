@@ -39,24 +39,11 @@ Overall, the dashboard fosters data-driven decision-making by showcasing trends 
   3. **Fuel Category Breakdown:** Fossil Fuels, Renewables, Nuclear, Other/Storage, etc.  
   4. **Market Type Distribution:** Competitive, Hybrid, Monopoly, selectable on a US map.
 
-> **_Optional: Insert an introductory dashboard screenshot here_**
+> ![Screenshot 2025-04-05 162852](https://github.com/user-attachments/assets/d020111b-e191-4ffc-95f4-df50b7566fe4)
+
 
 ---
 
-## Overall Performance Snapshot (Year: 2013)
-
-While the dashboard enables viewing any year, 2013 serves as an example:
-
-- **Thermal Efficiency:** **32.6%** (with a ▲0.138% YOY change).  
-- **Total Generation:** **250.1K MMBtu** (▲1.0% YOY).  
-- **Total Fuel Consumption:** **249.7K MMBtu** (▲4.1% YOY).
-
-> **_Optional: Insert a KPI Cards/2013 Snapshot screenshot_**
-
-**Initial Interpretation**  
-- Generation and fuel consumption both trended upwards, yet Thermal Efficiency also rose slightly. This suggests improvements in operational practices or shifts in the fuel mix.
-
----
 
 ## Key Findings (Dashboard Interactivity)
 
@@ -98,7 +85,8 @@ This interactivity empowers stakeholders to perform multifaceted analyses, compa
 - **Comparing Generation & Fuel:**  
   - By toggling to **Fuel (MMBtu)** in the stacked chart, see how fuel consumption correlates with generation output (potentially revealing efficiency shifts over the years).
 
-> **_Optional: Insert Time Series Chart Screenshot Here_**
+> ![Screenshot 2025-04-07 023422](https://github.com/user-attachments/assets/ab6ff959-f296-4a12-9236-483d835b2e84)
+
 
 ---
 
@@ -112,7 +100,8 @@ This interactivity empowers stakeholders to perform multifaceted analyses, compa
   - Thermal Efficiency and Fuel Usage can be contrasted between states under different regulatory setups.  
   - The slicer and button functionality reveals how each market segment might outperform or underperform in key metrics.
 
-> **_Optional: Insert Market Type Map Screenshot Here_**
+> ![Screenshot 2025-04-07 023753](https://github.com/user-attachments/assets/2b9284fd-163c-426c-bc67-470ab5140612)
+
 
 ---
 
@@ -127,16 +116,5 @@ This interactivity empowers stakeholders to perform multifaceted analyses, compa
   - Market competition can drive investments that enhance efficiency, whereas monopoly regions might lag.
 
 ---
-
-## Conclusion
-
-- **Improved Decision-Making:**  
-  By interacting with the slicers and toggles, stakeholders can pinpoint when and where efficiency gains occur, how the fuel mix shifts, and how market types shape performance.
-  
-- **2013 as a Reference Point:**  
-  Illustrates moderate efficiency gains amidst rising generation and fuel consumption, but each year (2011–2024) provides unique insights.
-
-- **Future Outlook:**  
-  Ongoing data monitoring is vital to confirm sustained improvements, detect changing fuel trends, and assess whether competitive, hybrid, or monopoly markets adapt more rapidly to evolving energy landscapes.
 
 This end-to-end analysis ensures that policymakers, plant operators, and other stakeholders have the information needed to optimize energy performance and strategize around ever-changing fuel and market dynamics.
