@@ -1,4 +1,4 @@
-# Data Analysis Report: Energy Performance & Fuel Utilization
+# Data Analysis Report: Energy Performance & Fuel Utilization by Electricity Market Structure
 
 This comprehensive report delves into how efficiently energy is generated (Thermal Efficiency), the total output of that generation (Gen_MMBtu), and the corresponding fuel consumption (Fuel_MMBtu). The Power BI dashboard provides interactive slicers, toggles, and a map to explore data from 2011 to 2024, segmented by both fuel categories and market structures (Competitive, Hybrid, Monopoly).
 
