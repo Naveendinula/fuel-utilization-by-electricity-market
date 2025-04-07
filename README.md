@@ -44,7 +44,30 @@ Overall, the dashboard fosters data-driven decision-making by showcasing trends 
 
 
 ---
+## Data Preparation & Transformation
 
+Over 175,000 rows of data were collected, covering multiple years and diverse fuel types. The raw dataset included **Year** (extracted from "Period"), **location** (state), **fuelTypeDescription**, and **consumption** metrics in various units. Below is an overview of how the data was cleaned and enhanced in Python and Power BI.
+
+1. **Python Cleaning (pandas, numpy)**  
+   - **Unit Standardization**: Converted consumption values (originally in thousand short tons and thousand physical units) into a single format (thousand physical units).  
+   - **Market Structure Assignment**: Grouped states into **monopoly**, **competitive**, or **hybrid** for comparative analysis.
+
+2. **Power Query Custom Columns**  
+   - **Generation to MMBtu**: Converted thousand MWh to MMBtu using a custom column.  
+   - **Heat Content Adjustment**: Unified heat content to Btu per short ton for consistent fuel-energy calculations.  
+   - **Fuel Category**: Used a “let” expression to classify detailed fuel types (e.g., Fossil Fuels, Renewables) for simpler, high-level comparisons.  
+   - **Fuel_MMBtu Calculation**:  
+     \[
+       \text{Fuel\_MMBtu} = \frac{(\text{consumption-for-eg} \times 1000) \times [Adjusted\_HeatContent]}{1{,}000{,}000}
+     \]
+     Ensures all fuel usage is measured in MMBtu.
+
+### Why It Matters
+
+- **Consistency & Comparability**: Having both **Gen_MMBtu** and **Fuel_MMBtu** standardizes analysis, making efficiency calculations straightforward.  
+- **Streamlined Visualization**: Grouping fuel types into categories and assigning market structures helps quickly identify trends and compare performance across regions and regulatory environments.  
+- **Reliability**: Clear, uniform data fosters confidence in the dashboard’s insights, enabling data-driven decisions on energy operations and policy.
+---
 
 ## Key Findings (Dashboard Interactivity)
 
