@@ -15,7 +15,8 @@ This analysis aims to offer clear insights into operational performance, highlig
 
 Key features include the ability to:
 - Select any year within **2011–2024** to see real-time updates on major KPIs.
-- Compare **Year-Over-Year (YOY) changes** via interactive buttons.
+- Compare **KPI**s and **Year-Over-Year (YOY) % changes**.
+- Toggle between **KPI**s for each **Market Structure** using interactive buttons.
 - Toggle between **Total Generation** and **Fuel Consumption** by fuel category.
 - Explore a **US map** to filter or highlight specific states based on market type.
 
@@ -52,8 +53,8 @@ The Power BI report offers dynamic controls to explore the data in multiple ways
 1. **Interactive Year Slicer (2011–2024)**  
    - Select any year to instantly update KPI cards, charts, and the map.
 
-2. **Dynamic KPI Cards with YOY Changes**  
-   - A toggle button switches the display between **raw KPI values** and **Year-Over-Year (YOY) changes**, so users can see if each metric has increased or decreased relative to the prior year.
+2. **Dynamic KPI Cards with YOY % Changes**  
+   - A toggle button switches the display between **raw KPI values** and **Year-Over-Year (YOY%) changes**, so users can see if each metric has increased or decreased relative to the prior year.
 
 3. **Fuel Category & Market Structure Buttons**  
    - **Market Structure (Competitive, Hybrid, Monopoly):** Filtering reveals how regulatory environments may shape efficiency and fuel usage.  
@@ -109,7 +110,7 @@ This interactivity empowers stakeholders to perform multifaceted analyses, compa
 
 - **Thermal Efficiency:**  
   - Ties generation to fuel usage; higher efficiency means less fuel is required to produce a given amount of energy.  
-  - Look for YOY changes to identify improvements or declines in plant operational performance.
+  - Look for YOY % changes to identify improvements or declines in plant operational performance.
 
 - **Factors Influencing Efficiency:**  
   - Technological upgrades, switching from coal to natural gas, or adopting renewables.  
