@@ -57,10 +57,10 @@ Over 175,000 rows of data were collected, covering multiple years and diverse fu
    - **Heat Content Adjustment**: Unified heat content to Btu per short ton for consistent fuel-energy calculations.  
    - **Fuel Category**: Used a “let” expression to classify detailed fuel types (e.g., Fossil Fuels, Renewables) for simpler, high-level comparisons.  
    - **Fuel_MMBtu Calculation**:  
-     \[
-       \text{Fuel\_MMBtu} = \frac{(\text{consumption-for-eg} \times 1000) \times [Adjusted\_HeatContent]}{1{,}000{,}000}
-     \]
-     Ensures all fuel usage is measured in MMBtu.
+
+Fuel_MMBtu = ((consumption-for-eg * 1000) * [Adjusted_HeatContent]) / 1,000,000
+
+Ensure all fuel is converted to MMBtu.
 
 ### Why It Matters
 
